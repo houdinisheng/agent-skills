@@ -29,6 +29,8 @@ Discover how Agent Skills can customise AI agents in these free tutorials.
 
 | Skill | Description |
 |-------|-------------|
+| [anki-connect](https://github.com/intellectronica/agent-skills/tree/main/skills/anki-connect) | This skill is for interacting with Anki through AnkiConnect, and should be used whenever a user asks to interact with Anki, including to read or modify decks, notes, cards, models, media, or sync operations. |
+| | ```npx skills add intellectronica/agent-skills --skill "anki-connect"``` |
 | [context7](https://github.com/intellectronica/agent-skills/tree/main/skills/context7) | Retrieve up-to-date documentation for software libraries, frameworks, and components via the Context7 API. This skill should be used when looking up documentation for any programming library or framework, finding code examples for specific APIs or features, verifying correct usage of library functions, or obtaining current information about library APIs that may have changed since training. |
 | | ```npx skills add intellectronica/agent-skills --skill "context7"``` |
 | [gpt-image-1-5](https://github.com/intellectronica/agent-skills/tree/main/skills/gpt-image-1-5) | Generate and edit images using OpenAI's GPT Image 1.5 model. Use when the user asks to generate, create, edit, modify, change, alter, or update images. Also use when user references an existing image file and asks to modify it in any way (e.g., "modify this image", "change the background", "replace X with Y"). Supports text-to-image generation and image editing with optional mask. DO NOT read the image file first - use this skill directly with the --input-image parameter. |
