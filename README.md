@@ -53,6 +53,8 @@ Discover how Agent Skills can customise AI agents in these free tutorials.
 | | ```npx skills add intellectronica/agent-skills --skill "ray-so-code-snippet"``` |
 | [tavily](https://github.com/intellectronica/agent-skills/tree/main/skills/tavily) | Use this skill for web search, extraction, mapping, crawling, and research via Tavily’s REST API when web searches are needed and no built-in tool is available, or when Tavily’s LLM-friendly format is beneficial. |
 | | ```npx skills add intellectronica/agent-skills --skill "tavily"``` |
+| [todoist-api](https://github.com/intellectronica/agent-skills/tree/main/skills/todoist-api) | This skill provides instructions for interacting with the Todoist REST API v2 using curl and jq. It covers authentication, CRUD operations for tasks/projects/sections/labels/comments, pagination handling, and requires confirmation before destructive actions. Use this skill when the user wants to read, create, update, or delete Todoist data via the API. |
+| | ```npx skills add intellectronica/agent-skills --skill "todoist-api"``` |
 | [ultrathink](https://github.com/intellectronica/agent-skills/tree/main/skills/ultrathink) | Display colorful ANSI art of the word "ultrathink". Use when the user says "ultrathink" or invokes /ultrathink. |
 | | ```npx skills add intellectronica/agent-skills --skill "ultrathink"``` |
 | [youtube-transcript](https://github.com/intellectronica/agent-skills/tree/main/skills/youtube-transcript) | Extract transcripts from YouTube videos. Use when the user asks for a transcript, subtitles, or captions of a YouTube video and provides a YouTube URL (youtube.com/watch?v=, youtu.be/, or similar). Supports output with or without timestamps. |
