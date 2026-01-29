@@ -114,8 +114,11 @@ function createGitHubIssue(skillName: string, report: string): void {
   const body = report;
 
   try {
+    // Use GH_PAT env var if available (for GitHub Actions where GH_TOKEN is used by Copilot CLI)
+    const ghToken = process.env.GH_PAT || process.env.GH_TOKEN;
+    const tokenPrefix = ghToken ? `GH_TOKEN="${ghToken}" ` : "";
     execSync(
-      `gh issue create --title "${title.replace(/"/g, '\\"')}" --body "$(cat <<'EOF'\n${body}\nEOF\n)"`,
+      `${tokenPrefix}gh issue create --title "${title.replace(/"/g, '\\"')}" --body "$(cat <<'EOF'\n${body}\nEOF\n)"`,
       { stdio: "inherit" }
     );
     console.error(`[Issue] Created issue for ${skillName}`);
