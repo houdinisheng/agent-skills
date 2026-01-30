@@ -7,8 +7,8 @@ Generate and edit images using OpenAI's GPT Image 1.5 model. Use when the user a
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install gpt-image-1-5@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install gpt-image-1-5@intellectronica-skills
 ```
 
 ### npx skills

@@ -7,8 +7,8 @@ Semantic code search using mgrep for efficient codebase exploration. This skill 
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install mgrep-code-search@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install mgrep-code-search@intellectronica-skills
 ```
 
 ### npx skills

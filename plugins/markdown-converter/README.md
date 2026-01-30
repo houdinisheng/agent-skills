@@ -7,8 +7,8 @@ Convert documents and files to Markdown using markitdown. Use when converting PD
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install markdown-converter@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install markdown-converter@intellectronica-skills
 ```
 
 ### npx skills

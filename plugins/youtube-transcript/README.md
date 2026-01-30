@@ -7,8 +7,8 @@ Extract transcripts from YouTube videos. Use when the user asks for a transcript
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install youtube-transcript@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install youtube-transcript@intellectronica-skills
 ```
 
 ### npx skills

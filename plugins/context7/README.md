@@ -7,8 +7,8 @@ Retrieve up-to-date documentation for software libraries, frameworks, and compon
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install context7@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install context7@intellectronica-skills
 ```
 
 ### npx skills

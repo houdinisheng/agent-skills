@@ -7,8 +7,8 @@ Use this skill for web search, extraction, mapping, crawling, and research via T
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install tavily@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install tavily@intellectronica-skills
 ```
 
 ### npx skills

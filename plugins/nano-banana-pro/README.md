@@ -7,8 +7,8 @@ Generate and edit images using Google's Nano Banana Pro (Gemini 3 Pro Image) API
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install nano-banana-pro@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install nano-banana-pro@intellectronica-skills
 ```
 
 ### npx skills

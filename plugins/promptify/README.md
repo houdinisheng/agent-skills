@@ -7,8 +7,8 @@ Transform user requests into detailed, precise prompts for AI models. Use when u
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install promptify@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install promptify@intellectronica-skills
 ```
 
 ### npx skills

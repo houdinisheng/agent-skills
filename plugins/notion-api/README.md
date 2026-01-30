@@ -7,8 +7,8 @@ This skill provides comprehensive instructions for interacting with the Notion A
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install notion-api@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install notion-api@intellectronica-skills
 ```
 
 ### npx skills

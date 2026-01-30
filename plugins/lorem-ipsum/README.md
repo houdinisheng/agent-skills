@@ -7,8 +7,8 @@ Generate lorem ipsum placeholder text. This skill should be used when users ask 
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install lorem-ipsum@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install lorem-ipsum@intellectronica-skills
 ```
 
 ### npx skills

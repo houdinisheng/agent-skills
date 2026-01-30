@@ -7,8 +7,8 @@ This skill is for interacting with Anki through AnkiConnect, and should be used 
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install anki-connect@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install anki-connect@intellectronica-skills
 ```
 
 ### npx skills

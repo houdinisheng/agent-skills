@@ -7,8 +7,8 @@ This skill provides guidance for creating agents and applications with the GitHu
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install copilot-sdk@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install copilot-sdk@intellectronica-skills
 ```
 
 ### npx skills

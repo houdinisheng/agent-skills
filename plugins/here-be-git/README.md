@@ -7,8 +7,8 @@ Initialise a git repository with optional agent commit instructions and .gitigno
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install here-be-git@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install here-be-git@intellectronica-skills
 ```
 
 ### npx skills

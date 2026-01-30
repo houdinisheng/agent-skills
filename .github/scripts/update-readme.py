@@ -48,12 +48,12 @@ def generate_installation_section() -> str:
 
 Add this repository as a plugin marketplace:
 ```bash
-/plugin marketplace add intellectronica/agent-skills
+claude plugin marketplace add intellectronica/agent-skills
 ```
 
 Install individual plugins:
 ```bash
-/plugin install anki-connect@intellectronica-skills
+claude plugin install anki-connect@intellectronica-skills
 ```
 
 ### As Agent Skills (npx)
@@ -86,7 +86,7 @@ def generate_table(skills: list[dict], repo_url: str) -> str:
         lines.append(f"| {skill_link} | {description} |")
         npx_cmd = f'```npx skills add intellectronica/agent-skills --skill {skill["name"]}```'
         lines.append(f"| | {npx_cmd} |")
-        plugin_cmd = f'```/plugin install {skill["name"]}@intellectronica-skills```'
+        plugin_cmd = f'```claude plugin install {skill["name"]}@intellectronica-skills```'
         lines.append(f"| | {plugin_cmd} |")
 
     return "\n".join(lines)

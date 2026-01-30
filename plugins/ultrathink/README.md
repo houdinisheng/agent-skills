@@ -7,8 +7,8 @@ Display colorful ANSI art of the word "ultrathink". Use when the user says "ultr
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install ultrathink@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install ultrathink@intellectronica-skills
 ```
 
 ### npx skills

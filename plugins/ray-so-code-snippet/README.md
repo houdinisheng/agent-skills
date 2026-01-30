@@ -7,8 +7,8 @@ Generate beautiful code snippet images using ray.so. This skill should be used w
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install ray-so-code-snippet@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install ray-so-code-snippet@intellectronica-skills
 ```
 
 ### npx skills

@@ -7,8 +7,8 @@ This skill provides instructions for interacting with the Todoist REST API v2 us
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install todoist-api@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install todoist-api@intellectronica-skills
 ```
 
 ### npx skills

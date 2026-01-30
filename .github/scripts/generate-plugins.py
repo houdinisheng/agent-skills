@@ -100,8 +100,8 @@ def generate_readme(name: str, description: str) -> str:
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install {name}@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install {name}@intellectronica-skills
 ```
 
 ### npx skills

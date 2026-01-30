@@ -7,8 +7,8 @@ Render Mermaid diagrams as SVG and PNG using the Beautiful Mermaid library. Use 
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install beautiful-mermaid@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install beautiful-mermaid@intellectronica-skills
 ```
 
 ### npx skills

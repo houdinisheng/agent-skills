@@ -7,8 +7,8 @@ This skill provides comprehensive instructions for using gogcli (gog), a fast, s
 ### Claude Code / Cowork
 
 ```bash
-/plugin marketplace add intellectronica/agent-skills
-/plugin install gog-cli@intellectronica-skills
+claude plugin marketplace add intellectronica/agent-skills
+claude plugin install gog-cli@intellectronica-skills
 ```
 
 ### npx skills
