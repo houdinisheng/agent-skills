@@ -40,42 +40,9 @@ def get_skills(skills_dir: Path) -> list[dict]:
     return sorted(skills, key=lambda s: s["name"].lower())
 
 
-def generate_installation_section() -> str:
-    """Generate the installation section."""
-    return """## Installation
-
-### As a Plugin Marketplace (Claude Code / Cowork)
-
-Add this repository as a plugin marketplace:
-```bash
-claude plugin marketplace add intellectronica/agent-skills
-```
-
-Install individual plugins:
-```bash
-claude plugin install anki-connect@intellectronica-skills
-```
-
-### As Agent Skills (npx)
-
-```bash
-npx skills add intellectronica/agent-skills --skill anki-connect
-```
-
----
-
-> **Note**: The `plugins/` directory is auto-generated from `skills/`.
-> To contribute, edit files in `skills/` — do not edit `plugins/` directly.
-
----
-
-"""
-
-
 def generate_table(skills: list[dict], repo_url: str) -> str:
     """Generate a markdown table of skills."""
     lines = [
-        generate_installation_section(),
         "| Skill | Description |",
         "|-------|-------------|",
     ]
