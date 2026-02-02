@@ -90,6 +90,9 @@ Discover how Agent Skills can customise AI agents in these free tutorials.
 | [ultrathink](https://github.com/intellectronica/agent-skills/tree/main/skills/ultrathink) | Display colorful ANSI art of the word "ultrathink". Use when the user says "ultrathink" or invokes /ultrathink. |
 | | ```npx skills add intellectronica/agent-skills --skill ultrathink``` |
 | | ```claude plugin install ultrathink@intellectronica-skills``` |
+| [upstash-redis-kv](https://github.com/intellectronica/agent-skills/tree/main/skills/upstash-redis-kv) | Read and write to Upstash Redis-compatible key-value store via REST API. Use when there is a need to save or retrieve key-value data, use Redis features (caching, counters, lists, sets, hashes, sorted sets, etc.) for the current interaction, or when the user explicitly asks to use Upstash or Redis. |
+| | ```npx skills add intellectronica/agent-skills --skill upstash-redis-kv``` |
+| | ```claude plugin install upstash-redis-kv@intellectronica-skills``` |
 | [youtube-transcript](https://github.com/intellectronica/agent-skills/tree/main/skills/youtube-transcript) | Extract transcripts from YouTube videos. Use when the user asks for a transcript, subtitles, or captions of a YouTube video and provides a YouTube URL (youtube.com/watch?v=, youtu.be/, or similar). Supports output with or without timestamps. |
 | | ```npx skills add intellectronica/agent-skills --skill youtube-transcript``` |
 | | ```claude plugin install youtube-transcript@intellectronica-skills``` |
