@@ -84,7 +84,7 @@ Discover how Agent Skills can customise AI agents in these free tutorials.
 | [tavily](https://github.com/intellectronica/agent-skills/tree/main/skills/tavily) | Use this skill for web search, extraction, mapping, crawling, and research via Tavily’s REST API when web searches are needed and no built-in tool is available, or when Tavily’s LLM-friendly format is beneficial. |
 | | ```npx skills add intellectronica/agent-skills --skill tavily``` |
 | | ```claude plugin install tavily@intellectronica-skills``` |
-| [todoist-api](https://github.com/intellectronica/agent-skills/tree/main/skills/todoist-api) | This skill provides instructions for interacting with the Todoist REST API v2 using curl and jq. It covers authentication, CRUD operations for tasks/projects/sections/labels/comments, pagination handling, and requires confirmation before destructive actions. Use this skill when the user wants to read, create, update, or delete Todoist data via the API. |
+| [todoist-api](https://github.com/intellectronica/agent-skills/tree/main/skills/todoist-api) | This skill provides instructions for interacting with Todoist using the td CLI tool. It covers CRUD operations for tasks/projects/sections/labels/comments, and requires confirmation before destructive actions. Use this skill when the user wants to read, create, update, or delete Todoist data. |
 | | ```npx skills add intellectronica/agent-skills --skill todoist-api``` |
 | | ```claude plugin install todoist-api@intellectronica-skills``` |
 | [ultrathink](https://github.com/intellectronica/agent-skills/tree/main/skills/ultrathink) | Display colorful ANSI art of the word "ultrathink". Use when the user says "ultrathink" or invokes /ultrathink. |
